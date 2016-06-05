@@ -1,8 +1,8 @@
 # Site settings
 title: Gumbo the Dog
 url: http://www.gumbothedog.co.uk
-description: "Gumbo is a stunning cream F2 Labradoodle. His Grandfather is Cosmo."
-skills: "Cream F2 Labradoodle - Born April 2011 - Grandfather is Cosmo"
+description: "Gumbo is a stunning cream F2 Labradoodle. Grandson of Cosmo"
+skills: "Cream F2 Labradoodle - Born April 2011 - Grandson of Cosmo"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -20,16 +20,6 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
 
 # Postal address (add as many lines as necessary)
 address:
@@ -43,3 +33,6 @@ credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+gems:
+  - jekyll-redirect-from
